@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: bbenefield89/one-click-hugo-cms
+  base_url: https://roum8dmuyf.execute-api.us-east-1.amazonaws.com
+  auth_endpoint: /default/gh_auth__request_id
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
