@@ -1,4 +1,5 @@
-  phases: 
+ version: 0.2
+ phases: 
     preBuild: 
       commands:
         - echo "prebuild command before"
@@ -9,4 +10,3 @@
         - echo "build command before"
         - yarn run build
         - echo "build command after"
-
