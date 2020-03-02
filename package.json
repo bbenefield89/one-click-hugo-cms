@@ -6,6 +6,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
+    "dev": "BRANCH=dev yarn run start",
+    "qe": "BRANCH=qe yarn run start",
+    "preprod": "BRANCH=preprod yarn run start",
+    "prod": "BRANCH=master yarn run start",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site -vw",
     "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
