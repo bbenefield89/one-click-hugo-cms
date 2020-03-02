@@ -1,8 +1,12 @@
   phases: 
     preBuild: 
       commands:
+        - echo "prebuild command before"
         - yarn install
+        - echo "prebuild command after"
     build: 
-      commands: 
+      commands:
+        - echo "build command before"
         - yarn run build
+        - echo "build command after"
 
