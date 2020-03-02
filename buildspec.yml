@@ -10,3 +10,6 @@
         - echo "build command before"
         - yarn run build
         - echo "build command after"
+ artifacts:
+    files:
+      - '**/*'
