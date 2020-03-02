@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: bbenefield89/one-click-hugo-cms
+  repo: Kinnary-Raichura/one-click-hugo-cms
   base_url: https://roum8dmuyf.execute-api.us-east-1.amazonaws.com
   auth_endpoint: /default/gh_auth__request_id
   preview_context: ci/preview

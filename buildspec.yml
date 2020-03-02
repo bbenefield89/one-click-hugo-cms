@@ -1,0 +1,16 @@
+ version: 0.2
+ phases: 
+    pre_build: 
+      commands:
+        - echo "prebuild command before"
+        - yarn install
+        - echo "prebuild command after"
+    build: 
+      commands:
+        - echo "build command before"
+        - yarn run build
+        - echo "build command after"
+ artifacts:
+    files:
+      - '**/*'
+    base-directory: dist
