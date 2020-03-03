@@ -4,7 +4,7 @@ backend:
   base_url: https://roum8dmuyf.execute-api.us-east-1.amazonaws.com
   auth_endpoint: /default/gh_auth__request_id
   preview_context: ci/preview
-  branch: master
+  branch: dev
 
 publish_mode: editorial_workflow
 
