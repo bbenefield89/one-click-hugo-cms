@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: bbenefield89/one-click-hugo-cms
+  repo: bbenefield89/one-click-hugo-cms-content
   base_url: https://roum8dmuyf.execute-api.us-east-1.amazonaws.com
   auth_endpoint: /default/gh_auth__request_id
   preview_context: ci/preview
-  branch: dev
+  branch: master
 
 publish_mode: editorial_workflow
 
