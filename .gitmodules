@@ -1,0 +1,3 @@
+[submodule "site/content"]
+	path = site/content
+	url = https://github.com/bbenefield89/one-click-hugo-cms-content
