@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
+# contentDir = "../one-click-hugo-cms-content/site/content"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
